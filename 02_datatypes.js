@@ -37,3 +37,6 @@ const date = new Date("2024-02-21");
 
 //We can check the type of variable using:
 console.log(typeof(num1));
+
+let a = 10;
+console.log(a);
