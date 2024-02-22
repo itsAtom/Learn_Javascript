@@ -7,11 +7,11 @@ let e = "test";
 
 console.log(a + c); //Output: 1020
 
-console.log(a + b + c); //Output: 3030
+consloe.log(a + b + c); //Output: 3030
 
 //Note: The JavaScript interpreter works from left to right.
-//First 10 + 20 is added because x and y are both numbers.
-//Then 30 + "30" is concatenated because z is a string.
+//First 10 + 20 is added because a and b are both numbers.
+//Then 30 + "30" is concatenated because c is a string.
 
 console.log(c + b + a); //Output: 302010
 
