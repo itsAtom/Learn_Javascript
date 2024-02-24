@@ -1,5 +1,5 @@
 // In Javascript, Datatypes are mainly divided into 2 types: Primitive and Non- primitive
-// --Primitive--
+// --Primitive-- (Stack based, a copy of the value is stored)
 
 //undefined
 let u; // Value is undefined, type is undefined.
@@ -22,7 +22,7 @@ let isValid = true;
 //bigInt
 let x = BigInt("123456789012345678901234567890");
 
-// --Non-primitive--
+// --Non-primitive-- (Heap based, reference to the value is stored)
 - Object
 // The object datatype contains:
 
